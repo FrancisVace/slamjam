@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6da01296-3123-4313-9fd3-4d2e5f25cf23}">
+		<property name="assetPath">
+			<value>WB2020_week41_EuroGrains 4 euroCrystal.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.169770833333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{eb8b964a-83a3-4145-95cd-425663aec4ed}</destination>
+		</relationship>
+	</object>
+</objects>

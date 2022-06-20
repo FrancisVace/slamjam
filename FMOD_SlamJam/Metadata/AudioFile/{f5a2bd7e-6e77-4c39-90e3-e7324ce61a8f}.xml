@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f5a2bd7e-6e77-4c39-90e3-e7324ce61a8f}">
+		<property name="assetPath">
+			<value>BunkerClunk_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.5680208333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{eb8b964a-83a3-4145-95cd-425663aec4ed}</destination>
+		</relationship>
+	</object>
+</objects>

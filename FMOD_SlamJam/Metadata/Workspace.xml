@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{ab3af852-e49a-4a74-a978-a2b92a631c88}">
+		<property name="builtBanksOutputDirectory">
+			<value>C:/Users/simon/_SlamJam_git/SlamJam/Content/FMOD</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{9a5e0099-c2cb-4625-b163-2d81ec5da15f}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{f8cbde43-2c71-417a-a775-7ceb9f382773}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{3a6221d5-4299-466a-afb7-b42c30f109bb}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{dfd77b26-8ed3-4c11-a9f4-1caffc9fa3f7}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{fef83b83-4a32-476a-a300-2444c196e78a}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{4a45e3e4-ac50-4f2e-8f69-0f3bde86288a}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{eb8b964a-83a3-4145-95cd-425663aec4ed}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{6ebec4dc-d300-4376-a019-8d8da0900309}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{97d78e6f-b87d-48fb-9c4a-0077a07295d1}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{066cd6d9-d728-489b-99b0-88bc6dddd379}</destination>
+		</relationship>
+	</object>
+</objects>

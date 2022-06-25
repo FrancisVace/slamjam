@@ -8330,3 +8330,1356 @@ Continuing with the rename may require changes to fix references in code or proj
 [2022.06.25-01.43.35:338][603]LogPlayLevel: Display: Destroying online subsystem :Context_103
 [2022.06.25-01.45.47:601][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
 [2022.06.25-01.45.48:504][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.06.25-02.17.20:693][ 91]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Focusrite Usb Audio), InstanceID=1
+[2022.06.25-02.17.20:693][ 91]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19960
+[2022.06.25-02.17.21:030][ 91]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{154391b1-547a-4038-9093-9bc5d0edf2f2}, Name=Speakers (Focusrite Usb Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=52.35
+[2022.06.25-02.17.21:030][ 91]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-02.17.21:037][ 92]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-02.18.11:523][530]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-02.18.11:541][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-02.18.11:542][530]PIE: New page: PIE session: Main_Menu_Level (Jun 25, 2022, 9:18:11 PM)
+[2022.06.25-02.18.11:542][530]LogPlayLevel: Creating play world package: /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-02.18.11:544][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001706s)
+[2022.06.25-02.18.11:544][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelMaps/Main_Menu_Level.Main_Menu_Level to /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.001811s)
+[2022.06.25-02.18.11:544][530]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-02.18.11:544][530]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-02.18.11:545][530]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2022.06.25-02.18.11:545][530]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2022.06.25-02.18.11:651][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.06.25-02.18.11:653][530]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2022.06.25-02.18.11:654][530]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-02.18.11:654][530]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-02.18.11:654][530]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-02.18.11:654][530]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-02.18.11:654][530]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-02.18.11:654][530]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-02.18.11:654][530]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-02.18.11:654][530]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-02.18.11:654][530]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-02.18.11:654][530]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-02.18.11:654][530]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-02.18.11:657][530]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-02.18.11:690][530]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite Usb Audio)
+[2022.06.25-02.18.11:692][530]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-02.18.11:692][530]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-02.18.11:692][530]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-02.18.11:694][530]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2022.06.25-02.18.11:694][530]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2022.06.25-02.18.11:696][530]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2022.06.25-02.18.11:696][530]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2022.06.25-02.18.11:696][530]LogInit: FAudioDevice initialized.
+[2022.06.25-02.18.11:696][530]LogAudio: Display: Audio Device (ID: 54) registered with world 'Main_Menu_Level'.
+[2022.06.25-02.18.11:713][530]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2022.06.25-02.18.11:713][530]LogWorld: Bringing World /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2022.06.25-11.48.11
+[2022.06.25-02.18.11:714][530]LogWorld: Bringing up level for play took: 0.000561
+[2022.06.25-02.18.11:717][530]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2022.06.25-02.18.11:721][530]PIE: Server logged in
+[2022.06.25-02.18.11:722][530]PIE: Play in editor total start time 0.181 seconds.
+[2022.06.25-02.18.12:559][594]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-02.18.12:559][594]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-02.18.12:559][594]LogWorld: BeginTearingDown for /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-02.18.12:560][594]LogWorld: UWorld::CleanupWorld for Main_Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.18.12:560][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.18.12:682][594]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-02.18.12:685][594]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.06.25-02.18.12:765][594]LogAudio: Display: Audio Device (ID: 54) registered with world 'Minimal_Default'.
+[2022.06.25-02.18.12:765][594]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-02.18.12:765][594]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-02.18.12:766][594]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.06.25-02.18.12:766][594]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2022.06.25-02.18.12:766][594]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.06.25-02.18.12:776][594]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2022.06.25-11.48.12
+[2022.06.25-02.18.12:776][594]LogWorld: Bringing up level for play took: 0.009772
+[2022.06.25-02.18.12:798][594]LogMetaSound: Error: Failed to set parameter 'None' in asset 'MS_Ambiences': No name specified, no transmittable input found, or type mismatch.
+[2022.06.25-02.18.12:799][594]LogLoad: Took 0.239817 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2022.06.25-02.18.17:574][832]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.112279
+[2022.06.25-02.18.17:574][832]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.112279
+[2022.06.25-02.18.17:575][832]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.106279
+[2022.06.25-02.18.17:575][832]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.106279
+[2022.06.25-02.18.24:350][177]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.195892
+[2022.06.25-02.18.24:350][177]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.083613
+[2022.06.25-02.18.25:461][233]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.312899
+[2022.06.25-02.18.25:461][233]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.117006
+[2022.06.25-02.18.27:657][342]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.177477
+[2022.06.25-02.18.27:657][342]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.079279
+[2022.06.25-02.18.28:051][361]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.080738
+[2022.06.25-02.18.28:051][361]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.059647
+[2022.06.25-02.18.28:455][381]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-02.18.28:456][381]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.094395
+[2022.06.25-02.18.29:377][426]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.112755
+[2022.06.25-02.18.29:377][426]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.112755
+[2022.06.25-02.18.30:875][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.235981
+[2022.06.25-02.18.30:875][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.123226
+[2022.06.25-02.18.31:528][532]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.337344
+[2022.06.25-02.18.31:528][532]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.101363
+[2022.06.25-02.18.34:968][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-02.18.34:968][712]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2022.06.25-02.18.34:969][712]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.18.34:970][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.18.34:985][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-02.18.34:994][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.18.35:067][712]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-02.18.35:067][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2022.06.25-02.18.35:069][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2022.06.25-02.18.35:072][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-02.18.35:077][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.06.25-02.18.35:133][713]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2022.06.25-02.22.12:616][300]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2022.06.25-02.22.12:616][300]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19960
+[2022.06.25-02.22.12:959][300]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{47483dfc-9f28-4f74-9498-f1d8c07bc664}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=36.34
+[2022.06.25-02.22.12:959][300]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-02.22.12:983][301]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-02.22.17:994][316]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Focusrite Usb Audio), InstanceID=1
+[2022.06.25-02.22.17:994][316]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19960
+[2022.06.25-02.22.18:332][316]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{154391b1-547a-4038-9093-9bc5d0edf2f2}, Name=Speakers (Focusrite Usb Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=10.86
+[2022.06.25-02.22.18:332][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-02.22.18:350][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-02.23.17:884][494]LogDerivedDataCache: C:/Users/bored/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.998 and deleted 0 file(s) with total size 0 MiB.
+[2022.06.25-02.27.10:201][219]LogTexture: Display: Building textures: /Game/UIWidgets/Fox_Health_Frame_v1.Fox_Health_Frame_v1 (BGRA8, 1024X331 X1X1) (Required Memory Estimate: 6.464844 MB), EncodeSpeed: Fast
+[2022.06.25-02.27.10:201][219]LogTexture: Display: Building textures: /Game/UIWidgets/Fox_Health_Guage_v1.Fox_Health_Guage_v1 (BGRA8, 1024X331 X1X1) (Required Memory Estimate: 6.464844 MB), EncodeSpeed: Fast
+[2022.06.25-02.27.10:201][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.06.25-02.27.11:726][219]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.25-02.27.11:758][219]LogShaderCompilers: Display: ================================================
+[2022.06.25-02.27.11:758][219]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.25-02.27.11:758][219]LogShaderCompilers: Display: Total job queries 128, among them cache hits 0 (0.00%)
+[2022.06.25-02.27.11:758][219]LogShaderCompilers: Display: Tracking 128 distinct input hashes that result in 78 distinct outputs (60.94%)
+[2022.06.25-02.27.11:759][219]LogShaderCompilers: Display: RAM used: 0.19 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.06.25-02.27.11:759][219]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.25-02.27.11:759][219]LogShaderCompilers: Display: Shaders Compiled: 128
+[2022.06.25-02.27.11:760][219]LogShaderCompilers: Display: Jobs assigned 128, completed 128 (100.00%)
+[2022.06.25-02.27.11:760][219]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.06.25-02.27.11:760][219]LogShaderCompilers: Display: Time job spent in pending queue: average 21.69 s, longest 46.05 s
+[2022.06.25-02.27.11:760][219]LogShaderCompilers: Display: Job execution time: average 6.96 s, max 11.36 s
+[2022.06.25-02.27.11:760][219]LogShaderCompilers: Display: Job life time (pending + execution): average 28.65 s, max 47.26
+[2022.06.25-02.27.11:760][219]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 47.26 s
+[2022.06.25-02.27.11:760][219]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 8.53 jobs/batch
+[2022.06.25-02.27.11:760][219]LogShaderCompilers: Display: Average processing rate: 2.71 jobs/sec
+[2022.06.25-02.27.11:761][219]LogShaderCompilers: Display: Effective parallelization: 1.61 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled    4 times, average 1.03 sec, max 1.51 sec, min 0.67 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    4 times, average 0.94 sec, max 1.54 sec, min 0.64 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    4 times, average 0.94 sec, max 1.19 sec, min 0.77 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:                       TLightMapDensityVSFDummyLightMapPolicy (compiled    2 times, average 0.86 sec, max 0.96 sec, min 0.77 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    4 times, average 0.86 sec, max 1.03 sec, min 0.67 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 5.44% of total time (compiled    4 times, average 1.03 sec, max 1.51 sec, min 0.67 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:                                                  FHitProxyVS - 4.94% of total time (compiled    4 times, average 0.94 sec, max 1.54 sec, min 0.64 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 4.93% of total time (compiled    4 times, average 0.94 sec, max 1.19 sec, min 0.77 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 4.52% of total time (compiled    4 times, average 0.86 sec, max 1.03 sec, min 0.67 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 4.30% of total time (compiled    4 times, average 0.82 sec, max 1.33 sec, min 0.62 sec)
+[2022.06.25-02.27.11:762][219]LogShaderCompilers: Display: ================================================
+[2022.06.25-02.27.11:840][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.06.25-02.27.11:911][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.06.25-02.27.11:984][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.06.25-02.34.43:947][910]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UIWidgets/Enemy_Health_Guage_v1.Enemy_Health_Guage_v1
+[2022.06.25-02.34.44:114][910]LogTexture: Display: Building textures: /Game/UIWidgets/Enemy_Health_Guage_v1.Enemy_Health_Guage_v1 (BGRA8, 1024X331 X1X1) (Required Memory Estimate: 6.464844 MB), EncodeSpeed: Fast
+[2022.06.25-02.34.44:114][910]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.06.25-02.34.45:024][910]LogViewport: Scene viewport resized to 1269x1252, mode Windowed.
+[2022.06.25-02.36.23:208][ 39]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.23:208][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.23:228][ 39]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.23:228][ 39]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.24:896][203]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.24:896][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.24:909][203]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.24:910][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.25:936][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.06.25-02.36.25:936][292]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.25:937][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.27:864][445]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.27:864][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.27:878][445]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.27:878][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.29:941][661]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.29:941][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.31:569][822]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.31:570][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-02.36.31:584][822]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-02.36.31:584][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-03.05.02:889][356]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.06.25-03.05.05:236][356]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2022.06.25-03.05.05:264][356]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.06.25-03.05.05:275][356]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.06.25-03.05.05:308][357]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2022.06.25-03.05.23:205][636]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> Health_Widget
+[2022.06.25-03.05.23:327][636]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.06.25-03.05.27:598][ 78]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-03.05.27:642][ 78]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-03.05.27:714][ 78]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-03.05.28:669][ 78]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-03.05.28:669][ 78]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-03.06.12:971][450]LogSlate: Window 'Health_Widget' being destroyed
+[2022.06.25-03.10.50:858][288]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2022.06.25-03.10.57:216][926]LogTexture: Display: Building textures: /Game/UIWidgets/Enemy_Health_Frame_v1.Enemy_Health_Frame_v1 (BGRA8, 1024X331 X1X1) (Required Memory Estimate: 6.464844 MB), EncodeSpeed: Fast
+[2022.06.25-03.17.08:441][513]LogEditorTransaction: Undo Edit Percent
+[2022.06.25-03.17.59:939][962]LogEditorTransaction: Undo Edit Percent
+[2022.06.25-03.18.00:338][966]Cmd: TRANSACTION UNDO
+[2022.06.25-03.18.00:339][966]LogEditorTransaction: Undo Edit Y
+[2022.06.25-03.18.01:518][ 70]Cmd: TRANSACTION UNDO
+[2022.06.25-03.18.01:518][ 70]LogEditorTransaction: Undo Edit X
+[2022.06.25-03.18.14:649][483]LogEditorTransaction: Undo Edit Percent
+[2022.06.25-03.23.05:632][586]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-03.23.06:185][586]LogUObjectHash: Compacting FUObjectHashTables data took  28.62ms
+[2022.06.25-03.23.06:700][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-03.23.06:717][631]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-03.23.06:717][631]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_WidgetBB0AEC0047080BAA496368A54BFDC264.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-03.23.06:957][631]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-03.23.06:958][631]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-03.23.19:220][928]LogDerivedDataCache: C:/Users/bored/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.180 and deleted 0 file(s) with total size 0 MiB.
+[2022.06.25-03.25.47:283][964]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/ArtAssets/Animations/MainCharacter/WokerCrouched_To_Standing_PhysicsAsset.WokerCrouched_To_Standing_PhysicsAsset
+[2022.06.25-03.25.47:632][964]LogSkeletalMesh: Building Skeletal Mesh WokerCrouched_To_Standing...
+[2022.06.25-03.25.47:632][964]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (WokerCrouched_To_Standing) ...
+[2022.06.25-03.25.47:920][964]LogSkeletalMesh: Built Skeletal Mesh [0.29s] /Game/ArtAssets/Animations/MainCharacter/WokerCrouched_To_Standing.WokerCrouched_To_Standing
+[2022.06.25-03.25.47:920][964]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-03.25.48:082][964]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_91:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2022.06.25-03.25.49:237][964]LogViewport: Scene viewport resized to 1018x1220, mode Windowed.
+[2022.06.25-03.25.54:171][ 78]LogWorld: UWorld::CleanupWorld for World_91, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-03.25.54:172][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-03.26.08:770][440]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ArtAssets/Animations/MainCharacter/WokerCrouched_To_Standing_Anim.WokerCrouched_To_Standing_Anim
+[2022.06.25-03.26.08:770][440]LogSkeletalMesh: Building Skeletal Mesh worker_crouch_walking...
+[2022.06.25-03.26.08:770][440]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ArtAssets/Animations/MainCharacter/worker_crouch_walking_Anim.worker_crouch_walking_Anim
+[2022.06.25-03.26.08:992][440]LogSkeletalMesh: Built Skeletal Mesh [0.40s] /Game/ArtAssets/Animations/MainCharacter/worker_crouch_walking.worker_crouch_walking
+[2022.06.25-03.26.08:993][440]LogSkeletalMesh: Building Skeletal Mesh Worker_Crouching_Idle...
+[2022.06.25-03.26.08:993][440]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2022.06.25-03.26.09:319][440]LogSkeletalMesh: Built Skeletal Mesh [0.32s] /Game/ArtAssets/Animations/MainCharacter/Worker_Crouching_Idle.Worker_Crouching_Idle
+[2022.06.25-03.26.09:319][440]LogSkeletalMesh: Building Skeletal Mesh WorkerIdle...
+[2022.06.25-03.26.09:644][440]LogSkeletalMesh: Built Skeletal Mesh [0.28s] /Game/ArtAssets/Animations/MainCharacter/WorkerIdle.WorkerIdle
+[2022.06.25-03.26.09:644][440]LogSkeletalMesh: Building Skeletal Mesh WorkerStanding_To_Crouched...
+[2022.06.25-03.26.09:896][440]LogSkeletalMesh: Built Skeletal Mesh [0.28s] /Game/ArtAssets/Animations/MainCharacter/WorkerStanding_To_Crouched.WorkerStanding_To_Crouched
+[2022.06.25-03.26.09:896][440]LogSkeletalMesh: Building Skeletal Mesh Workerwalk...
+[2022.06.25-03.26.10:283][440]LogSkeletalMesh: Built Skeletal Mesh [0.30s] /Game/ArtAssets/Animations/MainCharacter/Workerwalk.Workerwalk
+[2022.06.25-03.26.10:283][440]LogSkeletalMesh: Building Skeletal Mesh WorkerWalkBackwards...
+[2022.06.25-03.26.10:539][440]LogSkeletalMesh: Built Skeletal Mesh [0.28s] /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards.WorkerWalkBackwards
+[2022.06.25-03.26.15:147][440]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.25-03.26.15:285][440]LogUObjectGlobals: Force Deleting 28 Package(s):
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards_Skeleton.WorkerWalkBackwards_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/WokerCrouched_To_Standing.WokerCrouched_To_Standing
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/WokerCrouched_To_Standing_Anim.WokerCrouched_To_Standing_Anim
+	Asset Type: AnimSequence
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/WokerCrouched_To_Standing_PhysicsAsset.WokerCrouched_To_Standing_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/WokerCrouched_To_Standing_Skeleton.WokerCrouched_To_Standing_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/worker_crouch_walking.worker_crouch_walking
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/worker_crouch_walking_Anim.worker_crouch_walking_Anim
+	Asset Type: AnimSequence
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/worker_crouch_walking_PhysicsAsset.worker_crouch_walking_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/worker_crouch_walking_Skeleton.worker_crouch_walking_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/ArtAssets/Animations/MainCharacter/Worker_Crouching_Idle.Worker_Crouching_Idle
+	Asset Type: SkeletalMesh
+[2022.06.25-03.26.16:608][440]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2022.06.25-03.26.29:074][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.06.25-03.26.29:122][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.06.25-03.26.29:174][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.06.25-03.26.29:326][441]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/worker_crouch_walking.worker_crouch_walking has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:410][442]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/worker_crouch_walking.worker_crouch_walking has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:428][442]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/Worker_Crouching_Idle.Worker_Crouching_Idle has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:489][443]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerIdle.WorkerIdle has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:546][444]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WokerCrouched_To_Standing.WokerCrouched_To_Standing has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:561][444]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards.WorkerWalkBackwards has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:633][445]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/Workerwalk.Workerwalk has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:750][446]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerStanding_To_Crouched.WorkerStanding_To_Crouched has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:838][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerStanding_To_Crouched.WorkerStanding_To_Crouched has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:838][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerStanding_To_Crouched.WorkerStanding_To_Crouched has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:838][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerStanding_To_Crouched.WorkerStanding_To_Crouched has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:838][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerStanding_To_Crouched.WorkerStanding_To_Crouched has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:839][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/Workerwalk.Workerwalk has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:841][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/Workerwalk.Workerwalk has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:842][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/Workerwalk.Workerwalk has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:842][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/Workerwalk.Workerwalk has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:842][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/Workerwalk.Workerwalk has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:842][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards.WorkerWalkBackwards has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:842][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards.WorkerWalkBackwards has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:843][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards.WorkerWalkBackwards has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:843][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards.WorkerWalkBackwards has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:843][447]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards.WorkerWalkBackwards has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:858][448]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerStanding_To_Crouched.WorkerStanding_To_Crouched has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:859][448]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/Workerwalk.Workerwalk has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.29:860][448]LogAnimation: Warning: SkeletalMesh SkeletalMesh /Game/ArtAssets/Animations/MainCharacter/WorkerWalkBackwards.WorkerWalkBackwards has no skeleton. This needs to fixed before an animation can be set
+[2022.06.25-03.26.32:483][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.06.25-03.26.32:495][701]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelMaps/Main_Menu_Level' took 0.058
+[2022.06.25-03.26.47:898][365]LogSkeletalMesh: Building Skeletal Mesh Sad_Pose...
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:898][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:899][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid position track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid rotation track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:900][365]LogAnimation: Warning: Found non valid scaling track for Sad_Pose_Anim, 2 frames, instead of 3. Chopping!
+[2022.06.25-03.26.47:983][365]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ArtAssets/Animations/Worker/Sad_Pose_Anim.Sad_Pose_Anim
+[2022.06.25-03.26.47:983][365]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ArtAssets/Animations/Worker/Worker_Idle_1_Anim.Worker_Idle_1_Anim
+[2022.06.25-03.26.47:983][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.06.25-03.26.48:501][365]LogSkeletalMesh: Built Skeletal Mesh [0.28s] /Game/ArtAssets/Animations/Worker/Sad_Pose.Sad_Pose
+[2022.06.25-03.26.48:501][365]LogSkeletalMesh: Building Skeletal Mesh Worker_Idle_1...
+[2022.06.25-03.26.48:501][365]LogSkeletalMesh: Built Skeletal Mesh [0.25s] /Game/ArtAssets/Animations/Worker/Worker_Idle_1.Worker_Idle_1
+[2022.06.25-03.26.53:010][365]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.25-03.26.53:028][365]LogShaderCompilers: Display: ================================================
+[2022.06.25-03.26.53:028][365]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.25-03.26.53:028][365]LogShaderCompilers: Display: Total job queries 128, among them cache hits 0 (0.00%)
+[2022.06.25-03.26.53:028][365]LogShaderCompilers: Display: Tracking 128 distinct input hashes that result in 78 distinct outputs (60.94%)
+[2022.06.25-03.26.53:029][365]LogShaderCompilers: Display: RAM used: 0.19 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.06.25-03.26.53:029][365]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.25-03.26.53:029][365]LogShaderCompilers: Display: Shaders Compiled: 128
+[2022.06.25-03.26.53:029][365]LogShaderCompilers: Display: Jobs assigned 128, completed 128 (100.00%)
+[2022.06.25-03.26.53:029][365]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.06.25-03.26.53:030][365]LogShaderCompilers: Display: Time job spent in pending queue: average 21.69 s, longest 46.05 s
+[2022.06.25-03.26.53:030][365]LogShaderCompilers: Display: Job execution time: average 6.96 s, max 11.36 s
+[2022.06.25-03.26.53:030][365]LogShaderCompilers: Display: Job life time (pending + execution): average 28.65 s, max 47.26
+[2022.06.25-03.26.53:031][365]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 47.26 s
+[2022.06.25-03.26.53:031][365]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 8.53 jobs/batch
+[2022.06.25-03.26.53:031][365]LogShaderCompilers: Display: Average processing rate: 2.71 jobs/sec
+[2022.06.25-03.26.53:031][365]LogShaderCompilers: Display: Effective parallelization: 1.61 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2022.06.25-03.26.53:031][365]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled    4 times, average 1.03 sec, max 1.51 sec, min 0.67 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    4 times, average 0.94 sec, max 1.54 sec, min 0.64 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    4 times, average 0.94 sec, max 1.19 sec, min 0.77 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:                       TLightMapDensityVSFDummyLightMapPolicy (compiled    2 times, average 0.86 sec, max 0.96 sec, min 0.77 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    4 times, average 0.86 sec, max 1.03 sec, min 0.67 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 5.44% of total time (compiled    4 times, average 1.03 sec, max 1.51 sec, min 0.67 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:                                                  FHitProxyVS - 4.94% of total time (compiled    4 times, average 0.94 sec, max 1.54 sec, min 0.64 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 4.93% of total time (compiled    4 times, average 0.94 sec, max 1.19 sec, min 0.77 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 4.52% of total time (compiled    4 times, average 0.86 sec, max 1.03 sec, min 0.67 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 4.30% of total time (compiled    4 times, average 0.82 sec, max 1.33 sec, min 0.62 sec)
+[2022.06.25-03.26.53:032][365]LogShaderCompilers: Display: ================================================
+[2022.06.25-03.26.53:093][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.06.25-03.26.53:141][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.06.25-03.26.53:187][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.06.25-03.28.33:246][939]LogEditorTransaction: Undo Resize Widget
+[2022.06.25-03.29.05:172][741]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.25-03.29.41:297][411]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.25-03.30.47:535][210]LogEditorTransaction: Undo Edit Draw As
+[2022.06.25-03.30.48:357][241]LogEditorTransaction: Undo Edit Y
+[2022.06.25-03.30.48:997][295]LogEditorTransaction: Undo Edit X
+[2022.06.25-03.30.49:421][327]LogEditorTransaction: Undo Edit Y
+[2022.06.25-03.30.49:817][355]LogEditorTransaction: Undo Edit X
+[2022.06.25-03.30.50:228][386]LogEditorTransaction: Undo Edit X
+[2022.06.25-03.30.50:594][412]LogEditorTransaction: Undo Resize Widget
+[2022.06.25-03.30.51:018][445]LogEditorTransaction: Undo Edit Draw As
+[2022.06.25-03.32.01:128][112]LogEditorTransaction: Undo Edit Size To Content
+[2022.06.25-03.32.31:185][997]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.25-03.32.35:020][344]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.25-03.36.32:904][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.06.25-03.36.32:909][567]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelMaps/Main_Menu_Level' took 0.063
+[2022.06.25-03.36.32:910][567]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UIWidgets/Health_Widget] ([2] browsable assets)...
+[2022.06.25-03.36.32:914][567]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget]
+[2022.06.25-03.36.32:914][567]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/Health_Widget]
+[2022.06.25-03.36.32:917][567]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UIWidgets/Health_Widget_Auto7
+[2022.06.25-03.36.32:917][567]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget_Auto7C0D66E0A4076C2B1E6343BB435E1530D.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/Health_Widget_Auto7.uasset'
+[2022.06.25-03.36.32:918][567]LogFileHelpers: Auto-saving content packages took 0.009
+[2022.06.25-03.44.25:599][271]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.06.25-03.46.48:951][  9]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.25-03.47.04:919][719]LogEditorTransaction: Undo Edit Percent
+[2022.06.25-03.47.05:201][724]LogEditorTransaction: Undo Edit Specified Color
+[2022.06.25-03.47.05:451][728]LogEditorTransaction: Undo Edit Percent
+[2022.06.25-03.47.05:608][744]LogEditorTransaction: Undo Edit Draw As
+[2022.06.25-03.47.05:912][779]LogEditorTransaction: Undo Edit Percent
+[2022.06.25-03.47.06:143][805]LogEditorTransaction: Undo Edit Image
+[2022.06.25-03.47.06:355][829]LogEditorTransaction: Undo Drag and Drop Widget
+[2022.06.25-03.47.07:005][906]LogEditorTransaction: Undo Edit Percent
+[2022.06.25-03.48.43:339][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.06.25-03.48.43:343][789]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelMaps/Main_Menu_Level' took 0.055
+[2022.06.25-03.48.43:343][789]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UIWidgets/Health_Widget] ([2] browsable assets)...
+[2022.06.25-03.48.43:346][789]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget]
+[2022.06.25-03.48.43:346][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/Health_Widget]
+[2022.06.25-03.48.43:350][789]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UIWidgets/Health_Widget_Auto8
+[2022.06.25-03.48.43:351][789]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget_Auto8FE2927AA4C11F15ABCA022B0E3864E3C.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/Health_Widget_Auto8.uasset'
+[2022.06.25-03.48.43:351][789]LogFileHelpers: Auto-saving content packages took 0.008
+[2022.06.25-03.49.07:457][907]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-03.49.07:526][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.06.25-03.49.08:050][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-03.49.08:053][950]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-03.49.08:054][950]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_WidgetD5212B5B4DA4C7CE93D1C3ACA600AE71.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-03.49.08:077][950]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-03.49.08:077][950]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-03.52.24:892][310]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-03.52.24:986][310]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2022.06.25-03.52.25:526][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-03.52.25:535][353]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-03.52.25:536][353]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget7A085BA0483A3FDD4B7819AB6A7A4285.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-03.52.25:562][353]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-03.52.25:562][353]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-03.53.11:334][232]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-03.53.11:412][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.06.25-03.53.11:993][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-03.53.11:999][277]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-03.53.11:999][277]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_WidgetCCB500D7455F2157845E64B55EB50235.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-03.53.12:025][277]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-03.53.12:025][277]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-03.53.16:081][730]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-03.53.16:081][730]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-03.53.53:589][ 53]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-03.53.53:668][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.06.25-03.53.54:175][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-03.53.54:181][ 96]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-03.53.54:181][ 96]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_WidgetDDF32D2D400B335F198B4DBA79DFCC19.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-03.53.54:203][ 96]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-03.53.54:203][ 96]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-03.53.54:989][169]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-03.53.54:989][169]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-03.56.06:014][308]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\bored\OneDrive\Pictures\Game Design\Oversaturated\Health\health_sat.png)
+[2022.06.25-03.56.06:060][308]LogTexture: Display: Building textures: /Game/UIWidgets/health_sat.health_sat (BGRA8, 2131X475 X1X1) (Required Memory Estimate: 19.30666 MB), EncodeSpeed: Fast
+[2022.06.25-03.56.06:060][308]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\bored\OneDrive\Pictures\Game Design\Oversaturated\Health\bg_metal.png)
+[2022.06.25-03.56.06:071][308]LogTexture: Display: Building textures: /Game/UIWidgets/bg_metal.bg_metal (BGRA8, 2132X475 X1X1) (Required Memory Estimate: 19.31572 MB), EncodeSpeed: Fast
+[2022.06.25-03.56.06:071][308]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\bored\OneDrive\Pictures\Game Design\Oversaturated\Health\health_border.png)
+[2022.06.25-03.56.06:124][308]LogTexture: Display: Building textures: /Game/UIWidgets/health_border.health_border (BGRA8, 2132X475 X1X1) (Required Memory Estimate: 19.31572 MB), EncodeSpeed: Fast
+[2022.06.25-03.57.07:710][411]LogEditorTransaction: Undo Drag and Drop Widget
+[2022.06.25-03.58.52:328][784]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UIWidgets/health_sat.health_sat
+[2022.06.25-03.58.52:334][784]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.06.25-03.58.52:397][784]LogViewport: Scene viewport resized to 1269x1252, mode Windowed.
+[2022.06.25-03.59.05:479][203]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UIWidgets/health_border.health_border
+[2022.06.25-03.59.05:479][203]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.06.25-03.59.05:537][203]LogViewport: Scene viewport resized to 1269x1252, mode Windowed.
+[2022.06.25-04.00.47:367][392]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-04.00.47:451][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.06.25-04.00.48:090][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-04.00.48:095][444]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-04.00.48:096][444]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_WidgetA065ADF848AFF588DA121D902A17683C.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-04.00.48:118][444]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-04.00.48:118][444]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-04.00.49:611][612]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-04.00.49:611][612]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-04.03.18:915][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.06.25-04.03.18:918][615]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelMaps/Main_Menu_Level' took 0.062
+[2022.06.25-04.03.18:918][615]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UIWidgets/Health_Widget] ([2] browsable assets)...
+[2022.06.25-04.03.18:922][615]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget]
+[2022.06.25-04.03.18:922][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/Health_Widget]
+[2022.06.25-04.03.18:928][615]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UIWidgets/Health_Widget_Auto9
+[2022.06.25-04.03.18:928][615]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget_Auto922695C5241F8105E9370C082F16F187D.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/Health_Widget_Auto9.uasset'
+[2022.06.25-04.03.18:929][615]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UIWidgets/health_sat] ([1] browsable assets)...
+[2022.06.25-04.03.18:932][615]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UIWidgets/health_sat.health_sat]
+[2022.06.25-04.03.18:932][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/health_sat]
+[2022.06.25-04.03.18:932][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/health_sat" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/health_sat_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2022.06.25-04.03.18:937][615]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UIWidgets/health_sat_Auto9
+[2022.06.25-04.03.18:937][615]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/health_sat_Auto92259729F484148FE62069282F205EC16.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/health_sat_Auto9.uasset'
+[2022.06.25-04.03.18:938][615]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UIWidgets/bg_metal] ([1] browsable assets)...
+[2022.06.25-04.03.18:940][615]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UIWidgets/bg_metal.bg_metal]
+[2022.06.25-04.03.18:940][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/bg_metal]
+[2022.06.25-04.03.18:940][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/bg_metal" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/bg_metal_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2022.06.25-04.03.18:944][615]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UIWidgets/bg_metal_Auto9
+[2022.06.25-04.03.18:944][615]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/bg_metal_Auto992A5C1A14CA6D5B65F523AAA2C39FA1B.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/bg_metal_Auto9.uasset'
+[2022.06.25-04.03.18:945][615]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UIWidgets/health_border] ([1] browsable assets)...
+[2022.06.25-04.03.18:947][615]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UIWidgets/health_border.health_border]
+[2022.06.25-04.03.18:947][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/health_border]
+[2022.06.25-04.03.18:950][615]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UIWidgets/health_border_Auto9
+[2022.06.25-04.03.18:951][615]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/health_border_Auto99F75792940FD53E4D84CD4A0B6E6E81B.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/health_border_Auto9.uasset'
+[2022.06.25-04.03.18:951][615]LogFileHelpers: Auto-saving content packages took 0.033
+[2022.06.25-04.07.11:833][759]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-04.07.11:906][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.06.25-04.07.12:553][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-04.07.12:558][798]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-04.07.12:559][798]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget5B48BDC6419C715F3F397BBB3B8ECD8C.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-04.07.12:592][798]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-04.07.12:592][798]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-04.07.47:248][808]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-04.07.47:322][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.06.25-04.07.47:841][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-04.07.47:846][836]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-04.07.47:846][836]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget4EE3AABE432E6B54699C37BF38904909.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-04.07.47:867][836]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-04.07.47:868][836]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-04.07.49:156][969]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-04.07.49:178][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-04.07.49:178][969]PIE: New page: PIE session: Main_Menu_Level (Jun 25, 2022, 11:07:49 PM)
+[2022.06.25-04.07.49:214][969]LogPlayLevel: Creating play world package: /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.07.49:222][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007731s)
+[2022.06.25-04.07.49:222][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelMaps/Main_Menu_Level.Main_Menu_Level to /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.008516s)
+[2022.06.25-04.07.49:223][969]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.07.49:227][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.07.49:232][969]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2022.06.25-04.07.49:240][969]LogPlayLevel: PIE: World Init took: (0.017550s)
+[2022.06.25-04.07.49:284][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.06.25-04.07.49:292][969]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2022.06.25-04.07.49:295][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-04.07.49:295][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-04.07.49:295][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-04.07.49:295][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-04.07.49:295][969]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-04.07.49:295][969]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-04.07.49:295][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-04.07.49:296][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-04.07.49:299][969]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-04.07.49:300][969]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-04.07.49:300][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-04.07.49:304][969]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-04.07.49:328][969]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite Usb Audio)
+[2022.06.25-04.07.49:334][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-04.07.49:334][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-04.07.49:335][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-04.07.49:338][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2022.06.25-04.07.49:338][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2022.06.25-04.07.49:339][969]LogInit: FAudioDevice initialized.
+[2022.06.25-04.07.49:340][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2022.06.25-04.07.49:340][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2022.06.25-04.07.49:340][969]LogAudio: Display: Audio Device (ID: 55) registered with world 'Main_Menu_Level'.
+[2022.06.25-04.07.49:381][969]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2022.06.25-04.07.49:383][969]LogWorld: Bringing World /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2022.06.25-13.37.49
+[2022.06.25-04.07.49:388][969]LogWorld: Bringing up level for play took: 0.005735
+[2022.06.25-04.07.49:403][969]LogOnline: OSS: Created online subsystem instance for: :Context_122
+[2022.06.25-04.07.49:471][969]PIE: Server logged in
+[2022.06.25-04.07.49:472][969]PIE: Play in editor total start time 0.3 seconds.
+[2022.06.25-04.07.51:369][ 58]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.07.51:371][ 58]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.07.51:371][ 58]LogWorld: BeginTearingDown for /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.07.51:376][ 58]LogWorld: UWorld::CleanupWorld for Main_Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.07.51:376][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.07.51:440][ 58]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.07.51:452][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.06.25-04.07.51:534][ 58]LogAudio: Display: Audio Device (ID: 55) registered with world 'Minimal_Default'.
+[2022.06.25-04.07.51:534][ 58]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.07.51:534][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.07.51:534][ 58]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.06.25-04.07.51:535][ 58]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2022.06.25-04.07.51:535][ 58]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.06.25-04.07.51:553][ 58]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2022.06.25-13.37.51
+[2022.06.25-04.07.51:560][ 58]LogWorld: Bringing up level for play took: 0.024763
+[2022.06.25-04.07.51:578][ 58]LogMetaSound: Error: Failed to set parameter 'None' in asset 'MS_Ambiences': No name specified, no transmittable input found, or type mismatch.
+[2022.06.25-04.07.51:581][ 58]LogLoad: Took 0.210502 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2022.06.25-04.07.52:957][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.07.52:957][115]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2022.06.25-04.07.52:958][115]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.07.52:959][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.07.52:977][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-04.07.52:985][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.07.53:034][115]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.07.53:034][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2022.06.25-04.07.53:036][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2022.06.25-04.07.53:040][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.07.53:046][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.06.25-04.07.53:071][116]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2022.06.25-04.08.15:069][477]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-04.08.15:139][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.06.25-04.08.15:604][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-04.08.15:610][512]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-04.08.15:610][512]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget0333694D4B3EAF1683A8DEAE10E33D80.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-04.08.15:629][512]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-04.08.15:629][512]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-04.08.21:911][200]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-04.08.21:911][200]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.25-04.11.03:001][499]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.06.25-04.11.03:002][499]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.11.26:644][372]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.25-04.11.32:236][944]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.25-04.11.37:942][452]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2022.06.25-04.11.38:132][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.06.25-04.11.38:936][474]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2022.06.25-04.11.38:936][474]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/BP_ThirdPersonCharacter7056AC9E46F63A9810F34B8E1AF66419.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2022.06.25-04.11.38:995][474]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.06.25-04.11.38:995][474]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.06.25-04.12.21:585][ 38]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.06.25-04.13.17:586][205]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.06.25-04.13.23:424][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.06.25-04.13.23:433][221]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelMaps/Main_Menu_Level' took 0.068
+[2022.06.25-04.13.23:433][221]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2022.06.25-04.13.23:433][221]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2022.06.25-04.13.23:467][221]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto0
+[2022.06.25-04.13.23:468][221]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/BP_ThirdPersonCharacter_Auto084D402CB4A75C5B0AB69778A22B3FB5A.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto0.uasset'
+[2022.06.25-04.13.23:468][221]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UIWidgets/Health_Widget] ([2] browsable assets)...
+[2022.06.25-04.13.23:472][221]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget]
+[2022.06.25-04.13.23:472][221]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/Health_Widget]
+[2022.06.25-04.13.23:478][221]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UIWidgets/Health_Widget_Auto0
+[2022.06.25-04.13.23:478][221]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget_Auto0A5976E1448E7A37F8D6B31BE543A361D.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/Health_Widget_Auto0.uasset'
+[2022.06.25-04.13.23:478][221]LogFileHelpers: Auto-saving content packages took 0.045
+[2022.06.25-04.13.59:492][330]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.06.25-04.15.01:598][785]LogEditorTransaction: Undo Resize Node
+[2022.06.25-04.15.53:563][264]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.06.25-04.16.06:888][316]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2022.06.25-04.16.07:029][316]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.06.25-04.16.07:684][333]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2022.06.25-04.16.07:684][333]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/BP_ThirdPersonCharacterBAC54B65413D605E933483A065E15D01.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2022.06.25-04.16.07:711][333]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.06.25-04.16.07:711][333]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.06.25-04.16.12:960][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-04.16.12:965][749]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-04.16.12:965][749]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget6975EE5A4780E14C966149BA5AF3668F.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-04.16.12:998][749]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-04.16.12:998][749]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-04.16.13:227][774]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-04.16.13:380][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.06.25-04.16.14:531][879]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-04.16.14:537][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-04.16.14:537][879]PIE: New page: PIE session: Main_Menu_Level (Jun 25, 2022, 11:16:14 PM)
+[2022.06.25-04.16.14:538][879]LogPlayLevel: Creating play world package: /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.16.14:539][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001123s)
+[2022.06.25-04.16.14:539][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelMaps/Main_Menu_Level.Main_Menu_Level to /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.001206s)
+[2022.06.25-04.16.14:539][879]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.16.14:539][879]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.16.14:539][879]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2022.06.25-04.16.14:540][879]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2022.06.25-04.16.14:586][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.06.25-04.16.14:589][879]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2022.06.25-04.16.14:589][879]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-04.16.14:589][879]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-04.16.14:589][879]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-04.16.14:589][879]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-04.16.14:589][879]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-04.16.14:589][879]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-04.16.14:589][879]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-04.16.14:589][879]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-04.16.14:590][879]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-04.16.14:590][879]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-04.16.14:590][879]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-04.16.14:592][879]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-04.16.14:611][879]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite Usb Audio)
+[2022.06.25-04.16.14:612][879]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-04.16.14:612][879]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-04.16.14:612][879]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-04.16.14:616][879]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2022.06.25-04.16.14:616][879]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2022.06.25-04.16.14:617][879]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2022.06.25-04.16.14:617][879]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2022.06.25-04.16.14:617][879]LogInit: FAudioDevice initialized.
+[2022.06.25-04.16.14:617][879]LogAudio: Display: Audio Device (ID: 56) registered with world 'Main_Menu_Level'.
+[2022.06.25-04.16.14:628][879]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2022.06.25-04.16.14:629][879]LogWorld: Bringing World /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2022.06.25-13.46.14
+[2022.06.25-04.16.14:629][879]LogWorld: Bringing up level for play took: 0.000315
+[2022.06.25-04.16.14:631][879]LogOnline: OSS: Created online subsystem instance for: :Context_124
+[2022.06.25-04.16.14:636][879]PIE: Server logged in
+[2022.06.25-04.16.14:637][879]PIE: Play in editor total start time 0.1 seconds.
+[2022.06.25-04.16.20:343][482]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.16.20:343][482]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.16.20:343][482]LogWorld: BeginTearingDown for /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.16.20:343][482]LogWorld: UWorld::CleanupWorld for Main_Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.16.20:343][482]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.16.20:404][482]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.16.20:407][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.06.25-04.16.20:414][482]LogLinker: Warning: [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/bg_metal': Can't find file.
+[2022.06.25-04.16.20:415][482]LoadErrors: Error: /Game/UIWidgets/bg_metal : [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/bg_metal': Can't find file. /Game/UIWidgets/bg_metal
+[2022.06.25-04.16.20:415][482]LogLinker: Warning: [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/health_border': Can't find file.
+[2022.06.25-04.16.20:416][482]LoadErrors: Error: /Game/UIWidgets/health_border : [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/health_border': Can't find file. /Game/UIWidgets/health_border
+[2022.06.25-04.16.20:416][482]LogLinker: Warning: [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/health_sat': Can't find file.
+[2022.06.25-04.16.20:416][482]LoadErrors: Error: /Game/UIWidgets/health_sat : [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/health_sat': Can't find file. /Game/UIWidgets/health_sat
+[2022.06.25-04.16.20:416][482]LogLinker: Warning: [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/bg_metal': Can't find file.
+[2022.06.25-04.16.20:416][482]LogLinker: Warning: [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/health_border': Can't find file.
+[2022.06.25-04.16.20:416][482]LogLinker: Warning: [AssetLog] D:\OneDrive\Documents\GitHub\slamjam#slamjam\SlamJam\Content\UIWidgets\Health_Widget.uasset: Failed to load '/Game/UIWidgets/health_sat': Can't find file.
+[2022.06.25-04.16.20:437][482]LogAudio: Display: Audio Device (ID: 56) registered with world 'Minimal_Default'.
+[2022.06.25-04.16.20:437][482]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.16.20:437][482]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.16.20:438][482]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.06.25-04.16.20:438][482]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2022.06.25-04.16.20:438][482]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.06.25-04.16.20:444][482]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2022.06.25-13.46.20
+[2022.06.25-04.16.20:444][482]LogWorld: Bringing up level for play took: 0.006203
+[2022.06.25-04.16.20:450][482]LogMetaSound: Error: Failed to set parameter 'None' in asset 'MS_Ambiences': No name specified, no transmittable input found, or type mismatch.
+[2022.06.25-04.16.20:451][482]LogLoad: Took 0.108328 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2022.06.25-04.16.24:779][703]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.071
+[2022.06.25-04.16.24:780][703]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.071
+[2022.06.25-04.16.25:347][735]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.154811
+[2022.06.25-04.16.25:347][735]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.083811
+[2022.06.25-04.16.25:348][735]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.062799
+[2022.06.25-04.16.25:348][735]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.062799
+[2022.06.25-04.16.25:613][749]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.037649
+[2022.06.25-04.16.25:613][749]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.077992
+[2022.06.25-04.16.25:937][767]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.25:937][767]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.061768
+[2022.06.25-04.16.26:244][784]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.26:244][784]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.097148
+[2022.06.25-04.16.26:460][796]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.26:460][796]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.062458
+[2022.06.25-04.16.26:640][806]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.26:640][806]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.09565
+[2022.06.25-04.16.26:856][818]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.26:856][818]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.053986
+[2022.06.25-04.16.27:168][835]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.27:168][835]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.087974
+[2022.06.25-04.16.27:349][845]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.27:349][845]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.054486
+[2022.06.25-04.16.28:242][891]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.28:242][891]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.064527
+[2022.06.25-04.16.28:612][909]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.28:612][909]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.095042
+[2022.06.25-04.16.28:823][919]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.28:823][919]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.128225
+[2022.06.25-04.16.29:263][939]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.16.29:263][939]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.108324
+[2022.06.25-04.16.30:043][975]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.065482
+[2022.06.25-04.16.30:043][975]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.065482
+[2022.06.25-04.16.30:281][986]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.157411
+[2022.06.25-04.16.30:282][986]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.091929
+[2022.06.25-04.16.30:626][  2]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.255344
+[2022.06.25-04.16.30:626][  2]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.097932
+[2022.06.25-04.16.30:865][ 13]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.356963
+[2022.06.25-04.16.30:865][ 13]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.101619
+[2022.06.25-04.16.31:145][ 26]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.479847
+[2022.06.25-04.16.31:145][ 26]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.122884
+[2022.06.25-04.16.31:449][ 40]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.555889
+[2022.06.25-04.16.31:449][ 40]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.076041
+[2022.06.25-04.16.31:735][ 53]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.688704
+[2022.06.25-04.16.31:735][ 53]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.132815
+[2022.06.25-04.16.32:057][ 68]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.837843
+[2022.06.25-04.16.32:057][ 68]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.149139
+[2022.06.25-04.16.32:385][ 84]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.985954
+[2022.06.25-04.16.32:386][ 84]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.148111
+[2022.06.25-04.16.33:526][139]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.847087
+[2022.06.25-04.16.33:526][139]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.138586
+[2022.06.25-04.16.33:756][150]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.774235
+[2022.06.25-04.16.33:756][150]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.084574
+[2022.06.25-04.16.33:962][160]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.679055
+[2022.06.25-04.16.33:962][160]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.08708
+[2022.06.25-04.16.34:147][169]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.582691
+[2022.06.25-04.16.34:147][169]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.12376
+[2022.06.25-04.16.34:333][178]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.434806
+[2022.06.25-04.16.34:333][178]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.091264
+[2022.06.25-04.16.34:519][187]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.357123
+[2022.06.25-04.16.34:519][187]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.13077
+[2022.06.25-04.16.35:396][230]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.481637
+[2022.06.25-04.16.35:396][230]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.124514
+[2022.06.25-04.16.35:619][241]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.546997
+[2022.06.25-04.16.35:619][241]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.06536
+[2022.06.25-04.16.35:983][259]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.645445
+[2022.06.25-04.16.35:983][259]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.098448
+[2022.06.25-04.16.39:269][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.16.39:269][419]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2022.06.25-04.16.39:269][419]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.16.39:270][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.16.39:280][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-04.16.39:289][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.16.39:350][419]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.16.39:350][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2022.06.25-04.16.39:352][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2022.06.25-04.16.39:356][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.16.39:360][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.06.25-04.16.39:423][420]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2022.06.25-04.16.56:840][938]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.06.25-04.17.04:195][959]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-04.17.04:201][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-04.17.04:201][959]PIE: New page: PIE session: Main_Menu_Level (Jun 25, 2022, 11:17:04 PM)
+[2022.06.25-04.17.04:202][959]LogPlayLevel: Creating play world package: /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.17.04:204][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001128s)
+[2022.06.25-04.17.04:204][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelMaps/Main_Menu_Level.Main_Menu_Level to /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.001233s)
+[2022.06.25-04.17.04:204][959]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.17.04:204][959]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.17.04:204][959]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2022.06.25-04.17.04:204][959]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2022.06.25-04.17.04:253][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.06.25-04.17.04:255][959]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2022.06.25-04.17.04:255][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-04.17.04:255][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-04.17.04:255][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-04.17.04:255][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-04.17.04:255][959]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-04.17.04:255][959]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-04.17.04:255][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-04.17.04:255][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-04.17.04:255][959]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-04.17.04:255][959]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-04.17.04:255][959]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-04.17.04:257][959]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-04.17.04:278][959]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite Usb Audio)
+[2022.06.25-04.17.04:278][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-04.17.04:278][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-04.17.04:278][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-04.17.04:278][959]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2022.06.25-04.17.04:278][959]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2022.06.25-04.17.04:280][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2022.06.25-04.17.04:280][959]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2022.06.25-04.17.04:280][959]LogInit: FAudioDevice initialized.
+[2022.06.25-04.17.04:280][959]LogAudio: Display: Audio Device (ID: 57) registered with world 'Main_Menu_Level'.
+[2022.06.25-04.17.04:294][959]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2022.06.25-04.17.04:294][959]LogWorld: Bringing World /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2022.06.25-13.47.04
+[2022.06.25-04.17.04:295][959]LogWorld: Bringing up level for play took: 0.000367
+[2022.06.25-04.17.04:295][959]LogOnline: OSS: Created online subsystem instance for: :Context_125
+[2022.06.25-04.17.04:302][959]PIE: Server logged in
+[2022.06.25-04.17.04:302][959]PIE: Play in editor total start time 0.1 seconds.
+[2022.06.25-04.17.11:396][660]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.17.11:396][660]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.17.11:396][660]LogWorld: BeginTearingDown for /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.17.11:397][660]LogWorld: UWorld::CleanupWorld for Main_Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.17.11:397][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.17.11:475][660]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.17.11:478][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.06.25-04.17.11:503][660]LogAudio: Display: Audio Device (ID: 57) registered with world 'Minimal_Default'.
+[2022.06.25-04.17.11:503][660]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.17.11:503][660]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.17.11:503][660]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.06.25-04.17.11:504][660]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2022.06.25-04.17.11:504][660]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.06.25-04.17.11:510][660]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2022.06.25-13.47.11
+[2022.06.25-04.17.11:511][660]LogWorld: Bringing up level for play took: 0.006897
+[2022.06.25-04.17.11:518][660]LogMetaSound: Error: Failed to set parameter 'None' in asset 'MS_Ambiences': No name specified, no transmittable input found, or type mismatch.
+[2022.06.25-04.17.11:519][660]LogLoad: Took 0.122539 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2022.06.25-04.17.13:973][770]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.144302
+[2022.06.25-04.17.13:973][770]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.144302
+[2022.06.25-04.17.14:960][821]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.042402
+[2022.06.25-04.17.14:960][821]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.068818
+[2022.06.25-04.17.15:305][839]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.17.15:305][839]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.051236
+[2022.06.25-04.17.15:496][849]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.17.15:496][849]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.094221
+[2022.06.25-04.17.15:693][859]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0
+[2022.06.25-04.17.15:693][859]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.125097
+[2022.06.25-04.17.16:275][889]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.145981
+[2022.06.25-04.17.16:275][889]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.145981
+[2022.06.25-04.17.16:390][895]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.236824
+[2022.06.25-04.17.16:390][895]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.090843
+[2022.06.25-04.17.16:390][895]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.135382
+[2022.06.25-04.17.16:390][895]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.135382
+[2022.06.25-04.17.16:484][900]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.339288
+[2022.06.25-04.17.16:484][900]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.102464
+[2022.06.25-04.17.16:655][909]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.414228
+[2022.06.25-04.17.16:655][909]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.07494
+[2022.06.25-04.17.17:020][928]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.533517
+[2022.06.25-04.17.17:020][928]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.119289
+[2022.06.25-04.17.17:310][943]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.599542
+[2022.06.25-04.17.17:310][943]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.066025
+[2022.06.25-04.17.17:807][969]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.686879
+[2022.06.25-04.17.17:807][969]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.087336
+[2022.06.25-04.17.18:692][ 15]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.551302
+[2022.06.25-04.17.18:692][ 15]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.067066
+[2022.06.25-04.17.19:041][ 33]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.473588
+[2022.06.25-04.17.19:041][ 33]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.127007
+[2022.06.25-04.17.19:623][ 63]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.334153
+[2022.06.25-04.17.19:623][ 63]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.106581
+[2022.06.25-04.17.19:815][ 73]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.19723
+[2022.06.25-04.17.19:815][ 73]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.117901
+[2022.06.25-04.17.20:025][ 84]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.317768
+[2022.06.25-04.17.20:025][ 84]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.120537
+[2022.06.25-04.17.20:256][ 96]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.389476
+[2022.06.25-04.17.20:256][ 96]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.071708
+[2022.06.25-04.17.20:448][106]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.444118
+[2022.06.25-04.17.20:448][106]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.054642
+[2022.06.25-04.17.20:607][114]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.525008
+[2022.06.25-04.17.20:607][114]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.080891
+[2022.06.25-04.17.20:778][123]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.667544
+[2022.06.25-04.17.20:778][123]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.142535
+[2022.06.25-04.17.20:952][132]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.753262
+[2022.06.25-04.17.20:952][132]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.085719
+[2022.06.25-04.17.21:124][141]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.861003
+[2022.06.25-04.17.21:124][141]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.107741
+[2022.06.25-04.17.21:277][149]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 1.0
+[2022.06.25-04.17.21:279][149]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.147232
+[2022.06.25-04.17.21:287][149]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:287][149]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:304][150]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:304][150]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:322][151]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:322][151]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:341][152]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:341][152]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:359][153]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:359][153]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:377][154]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:377][154]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:396][155]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:396][155]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:412][156]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:412][156]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:430][157]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:430][157]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:448][158]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:448][158]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:466][159]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:466][159]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:484][160]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:484][160]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:501][161]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:501][161]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:520][162]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:520][162]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:537][163]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:538][163]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:554][164]LogScript: Warning: Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)
+	Health_Widget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_55.Health_Widget_C_1
+	Function /Game/UIWidgets/Health_Widget.Health_Widget_C:Get_SaturationBar_Percent_0:0021
+[2022.06.25-04.17.21:554][164]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:573][165]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:591][166]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:610][167]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:627][168]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:643][169]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:662][170]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:679][171]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:696][172]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:715][173]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:734][174]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:750][175]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:769][176]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:787][177]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:805][178]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:822][179]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:839][180]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:858][181]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:877][182]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:893][183]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:910][184]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:927][185]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ThirdPersonCharacter_C_0 via property Char REF, but BP_ThirdPersonCharacter_C_0 is not valid (pending kill or garbage)". Node:  Return Node Graph:  Get_SaturationBar_Percent_0 Function:  Get Saturation Bar Percent 0 Blueprint:  Health_Widget
+[2022.06.25-04.17.21:990][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.17.21:990][186]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2022.06.25-04.17.21:990][186]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.17.21:991][186]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.17.22:005][186]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-04.17.22:013][186]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.17.22:062][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.17.22:062][186]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2022.06.25-04.17.22:063][186]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2022.06.25-04.17.22:072][186]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.06.25-04.17.22:321][187]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2022.06.25-04.17.26:577][529]LogSlate: Window 'Message Log' being destroyed
+[2022.06.25-04.17.26:591][529]LogSlate: Window 'Message Log' being destroyed
+[2022.06.25-04.18.05:775][192]BlueprintLog: New page: Compile Health_Widget
+[2022.06.25-04.18.05:902][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.06.25-04.18.06:362][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-04.18.06:368][217]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-04.18.06:368][217]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_WidgetDC203F434CD31522C3C977B544E93286.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-04.18.06:391][217]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-04.18.06:391][217]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget
+[2022.06.25-04.18.07:419][315]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-04.18.07:426][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-04.18.07:426][315]PIE: New page: PIE session: Main_Menu_Level (Jun 25, 2022, 11:18:07 PM)
+[2022.06.25-04.18.07:449][315]LogPlayLevel: Creating play world package: /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.18.07:450][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001058s)
+[2022.06.25-04.18.07:450][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelMaps/Main_Menu_Level.Main_Menu_Level to /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.001152s)
+[2022.06.25-04.18.07:450][315]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.18.07:450][315]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.18.07:450][315]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2022.06.25-04.18.07:451][315]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2022.06.25-04.18.07:501][315]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.06.25-04.18.07:504][315]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2022.06.25-04.18.07:504][315]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-04.18.07:504][315]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-04.18.07:504][315]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-04.18.07:504][315]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-04.18.07:504][315]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-04.18.07:504][315]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-04.18.07:504][315]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-04.18.07:505][315]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-04.18.07:505][315]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-04.18.07:505][315]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-04.18.07:505][315]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-04.18.07:507][315]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-04.18.07:526][315]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite Usb Audio)
+[2022.06.25-04.18.07:527][315]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-04.18.07:527][315]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-04.18.07:527][315]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-04.18.07:528][315]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2022.06.25-04.18.07:528][315]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2022.06.25-04.18.07:529][315]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2022.06.25-04.18.07:529][315]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2022.06.25-04.18.07:529][315]LogInit: FAudioDevice initialized.
+[2022.06.25-04.18.07:529][315]LogAudio: Display: Audio Device (ID: 58) registered with world 'Main_Menu_Level'.
+[2022.06.25-04.18.07:539][315]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2022.06.25-04.18.07:539][315]LogWorld: Bringing World /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2022.06.25-13.48.07
+[2022.06.25-04.18.07:539][315]LogWorld: Bringing up level for play took: 0.000314
+[2022.06.25-04.18.07:541][315]LogOnline: OSS: Created online subsystem instance for: :Context_126
+[2022.06.25-04.18.07:546][315]PIE: Server logged in
+[2022.06.25-04.18.07:547][315]PIE: Play in editor total start time 0.121 seconds.
+[2022.06.25-04.18.09:083][397]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.18.09:083][397]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.18.09:083][397]LogWorld: BeginTearingDown for /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.18.09:084][397]LogWorld: UWorld::CleanupWorld for Main_Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.18.09:084][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.09:135][397]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.18.09:138][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.06.25-04.18.09:165][397]LogAudio: Display: Audio Device (ID: 58) registered with world 'Minimal_Default'.
+[2022.06.25-04.18.09:165][397]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.18.09:165][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.18.09:165][397]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.06.25-04.18.09:166][397]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2022.06.25-04.18.09:166][397]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.06.25-04.18.09:172][397]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2022.06.25-13.48.09
+[2022.06.25-04.18.09:172][397]LogWorld: Bringing up level for play took: 0.006487
+[2022.06.25-04.18.09:178][397]LogMetaSound: Error: Failed to set parameter 'None' in asset 'MS_Ambiences': No name specified, no transmittable input found, or type mismatch.
+[2022.06.25-04.18.09:179][397]LogLoad: Took 0.096091 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2022.06.25-04.18.11:178][487]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.12214
+[2022.06.25-04.18.11:178][487]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.12214
+[2022.06.25-04.18.11:466][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.216449
+[2022.06.25-04.18.11:466][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.09431
+[2022.06.25-04.18.11:780][514]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.330163
+[2022.06.25-04.18.11:781][514]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.113713
+[2022.06.25-04.18.11:937][521]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.382138
+[2022.06.25-04.18.11:937][521]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.051975
+[2022.06.25-04.18.12:159][531]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.463935
+[2022.06.25-04.18.12:159][531]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.081797
+[2022.06.25-04.18.12:424][543]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.59921
+[2022.06.25-04.18.12:424][543]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.135275
+[2022.06.25-04.18.12:601][551]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.72564
+[2022.06.25-04.18.12:601][551]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.126431
+[2022.06.25-04.18.12:783][558]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.858544
+[2022.06.25-04.18.12:783][558]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.132904
+[2022.06.25-04.18.12:928][566]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.999864
+[2022.06.25-04.18.12:928][566]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.141321
+[2022.06.25-04.18.13:106][576]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 1.0
+[2022.06.25-04.18.13:106][576]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.146973
+[2022.06.25-04.18.14:066][633]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.073682
+[2022.06.25-04.18.14:066][633]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.073682
+[2022.06.25-04.18.19:710][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.18.19:710][967]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2022.06.25-04.18.19:710][967]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.18.19:711][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.19:724][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-04.18.19:733][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.19:782][967]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.18.19:782][967]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2022.06.25-04.18.19:783][967]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2022.06.25-04.18.19:787][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.18.19:790][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.06.25-04.18.19:846][968]LogPlayLevel: Display: Destroying online subsystem :Context_126
+[2022.06.25-04.18.21:203][102]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-04.18.21:209][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-04.18.21:209][102]PIE: New page: PIE session: Main_Menu_Level (Jun 25, 2022, 11:18:21 PM)
+[2022.06.25-04.18.21:210][102]LogPlayLevel: Creating play world package: /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.18.21:211][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001012s)
+[2022.06.25-04.18.21:211][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelMaps/Main_Menu_Level.Main_Menu_Level to /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.001083s)
+[2022.06.25-04.18.21:211][102]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.18.21:211][102]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.18.21:211][102]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2022.06.25-04.18.21:211][102]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2022.06.25-04.18.21:259][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.06.25-04.18.21:261][102]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2022.06.25-04.18.21:261][102]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-04.18.21:261][102]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-04.18.21:261][102]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-04.18.21:261][102]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-04.18.21:261][102]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-04.18.21:261][102]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-04.18.21:261][102]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-04.18.21:261][102]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-04.18.21:262][102]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-04.18.21:262][102]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-04.18.21:262][102]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-04.18.21:264][102]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-04.18.21:283][102]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite Usb Audio)
+[2022.06.25-04.18.21:284][102]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-04.18.21:284][102]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-04.18.21:284][102]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-04.18.21:284][102]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2022.06.25-04.18.21:284][102]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2022.06.25-04.18.21:286][102]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2022.06.25-04.18.21:286][102]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2022.06.25-04.18.21:286][102]LogInit: FAudioDevice initialized.
+[2022.06.25-04.18.21:286][102]LogAudio: Display: Audio Device (ID: 59) registered with world 'Main_Menu_Level'.
+[2022.06.25-04.18.21:295][102]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2022.06.25-04.18.21:295][102]LogWorld: Bringing World /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2022.06.25-13.48.21
+[2022.06.25-04.18.21:295][102]LogWorld: Bringing up level for play took: 0.000295
+[2022.06.25-04.18.21:297][102]LogOnline: OSS: Created online subsystem instance for: :Context_127
+[2022.06.25-04.18.21:302][102]PIE: Server logged in
+[2022.06.25-04.18.21:302][102]PIE: Play in editor total start time 0.093 seconds.
+[2022.06.25-04.18.22:186][149]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.18.22:186][149]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.18.22:186][149]LogWorld: BeginTearingDown for /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.18.22:187][149]LogWorld: UWorld::CleanupWorld for Main_Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.18.22:187][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.22:274][149]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.18.22:277][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.06.25-04.18.22:302][149]LogAudio: Display: Audio Device (ID: 59) registered with world 'Minimal_Default'.
+[2022.06.25-04.18.22:302][149]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.18.22:302][149]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.18.22:303][149]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.06.25-04.18.22:303][149]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2022.06.25-04.18.22:303][149]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.06.25-04.18.22:309][149]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2022.06.25-13.48.22
+[2022.06.25-04.18.22:309][149]LogWorld: Bringing up level for play took: 0.006377
+[2022.06.25-04.18.22:316][149]LogMetaSound: Error: Failed to set parameter 'None' in asset 'MS_Ambiences': No name specified, no transmittable input found, or type mismatch.
+[2022.06.25-04.18.22:317][149]LogLoad: Took 0.130830 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2022.06.25-04.18.24:113][222]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.109966
+[2022.06.25-04.18.24:113][222]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.109966
+[2022.06.25-04.18.24:207][227]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.228767
+[2022.06.25-04.18.24:207][227]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.118801
+[2022.06.25-04.18.24:425][239]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.321056
+[2022.06.25-04.18.24:425][239]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.092289
+[2022.06.25-04.18.24:619][250]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.469387
+[2022.06.25-04.18.24:619][250]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.148331
+[2022.06.25-04.18.24:810][261]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.613289
+[2022.06.25-04.18.24:810][261]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.143902
+[2022.06.25-04.18.25:007][272]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.693307
+[2022.06.25-04.18.25:007][272]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.080018
+[2022.06.25-04.18.25:249][286]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.777885
+[2022.06.25-04.18.25:249][286]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.084577
+[2022.06.25-04.18.25:579][305]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.880413
+[2022.06.25-04.18.25:579][305]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.102528
+[2022.06.25-04.18.26:899][381]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.98852
+[2022.06.25-04.18.26:899][381]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.108107
+[2022.06.25-04.18.27:178][397]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 1.0
+[2022.06.25-04.18.27:178][397]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.122118
+[2022.06.25-04.18.27:178][397]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.130627
+[2022.06.25-04.18.27:178][397]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.130627
+[2022.06.25-04.18.28:639][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.18.28:639][485]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2022.06.25-04.18.28:639][485]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.18.28:641][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.28:652][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-04.18.28:660][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.28:708][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.18.28:709][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2022.06.25-04.18.28:710][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2022.06.25-04.18.28:717][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.06.25-04.18.28:757][486]LogPlayLevel: Display: Destroying online subsystem :Context_127
+[2022.06.25-04.18.30:789][688]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-04.18.30:795][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-04.18.30:795][688]PIE: New page: PIE session: Main_Menu_Level (Jun 25, 2022, 11:18:30 PM)
+[2022.06.25-04.18.30:809][688]LogPlayLevel: Creating play world package: /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.18.30:810][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001018s)
+[2022.06.25-04.18.30:810][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelMaps/Main_Menu_Level.Main_Menu_Level to /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.001103s)
+[2022.06.25-04.18.30:810][688]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.18.30:810][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.18.30:811][688]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2022.06.25-04.18.30:811][688]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2022.06.25-04.18.30:856][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.06.25-04.18.30:858][688]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2022.06.25-04.18.30:858][688]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-04.18.30:858][688]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-04.18.30:858][688]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-04.18.30:858][688]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-04.18.30:858][688]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-04.18.30:858][688]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-04.18.30:858][688]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-04.18.30:858][688]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-04.18.30:859][688]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-04.18.30:859][688]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-04.18.30:859][688]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-04.18.30:861][688]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-04.18.30:880][688]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite Usb Audio)
+[2022.06.25-04.18.30:881][688]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-04.18.30:881][688]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-04.18.30:881][688]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-04.18.30:881][688]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2022.06.25-04.18.30:881][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2022.06.25-04.18.30:883][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2022.06.25-04.18.30:883][688]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2022.06.25-04.18.30:883][688]LogInit: FAudioDevice initialized.
+[2022.06.25-04.18.30:883][688]LogAudio: Display: Audio Device (ID: 60) registered with world 'Main_Menu_Level'.
+[2022.06.25-04.18.30:893][688]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2022.06.25-04.18.30:893][688]LogWorld: Bringing World /Game/LevelMaps/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2022.06.25-13.48.30
+[2022.06.25-04.18.30:894][688]LogWorld: Bringing up level for play took: 0.000375
+[2022.06.25-04.18.30:895][688]LogOnline: OSS: Created online subsystem instance for: :Context_128
+[2022.06.25-04.18.30:900][688]PIE: Server logged in
+[2022.06.25-04.18.30:900][688]PIE: Play in editor total start time 0.105 seconds.
+[2022.06.25-04.18.31:690][766]LogNet: Browse: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.18.31:690][766]LogLoad: LoadMap: /Game/StarterContent/Maps/Minimal_Default
+[2022.06.25-04.18.31:690][766]LogWorld: BeginTearingDown for /Game/LevelMaps/UEDPIE_0_Main_Menu_Level
+[2022.06.25-04.18.31:691][766]LogWorld: UWorld::CleanupWorld for Main_Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.18.31:691][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.31:764][766]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-04.18.31:766][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.06.25-04.18.31:791][766]LogAudio: Display: Audio Device (ID: 60) registered with world 'Minimal_Default'.
+[2022.06.25-04.18.31:791][766]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.25-04.18.31:791][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-04.18.31:792][766]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.06.25-04.18.31:792][766]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2022.06.25-04.18.31:792][766]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.06.25-04.18.31:799][766]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2022.06.25-13.48.31
+[2022.06.25-04.18.31:799][766]LogWorld: Bringing up level for play took: 0.006841
+[2022.06.25-04.18.31:806][766]LogMetaSound: Error: Failed to set parameter 'None' in asset 'MS_Ambiences': No name specified, no transmittable input found, or type mismatch.
+[2022.06.25-04.18.31:807][766]LogLoad: Took 0.116826 seconds to LoadMap(/Game/StarterContent/Maps/Minimal_Default)
+[2022.06.25-04.18.33:489][861]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.055512
+[2022.06.25-04.18.33:489][861]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.055512
+[2022.06.25-04.18.33:718][874]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.202222
+[2022.06.25-04.18.33:718][874]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.14671
+[2022.06.25-04.18.33:913][885]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.259281
+[2022.06.25-04.18.33:913][885]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.057059
+[2022.06.25-04.18.34:092][895]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.351723
+[2022.06.25-04.18.34:092][895]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.092442
+[2022.06.25-04.18.34:289][906]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.493016
+[2022.06.25-04.18.34:289][906]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.141293
+[2022.06.25-04.18.34:472][916]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.601212
+[2022.06.25-04.18.34:473][916]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.108196
+[2022.06.25-04.18.36:111][  3]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.601212
+[2022.06.25-04.18.36:111][  3]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.601212
+[2022.06.25-04.18.36:689][ 33]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.102709
+[2022.06.25-04.18.36:690][ 33]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.102709
+[2022.06.25-04.18.36:690][ 33]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.652829
+[2022.06.25-04.18.36:690][ 33]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.051617
+[2022.06.25-04.18.38:372][124]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.156017
+[2022.06.25-04.18.38:372][124]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.053308
+[2022.06.25-04.18.38:574][135]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.220757
+[2022.06.25-04.18.38:575][135]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.06474
+[2022.06.25-04.18.38:739][144]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.369894
+[2022.06.25-04.18.38:739][144]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.149136
+[2022.06.25-04.18.38:928][154]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.485804
+[2022.06.25-04.18.38:929][154]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.115911
+[2022.06.25-04.18.39:076][162]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.632414
+[2022.06.25-04.18.39:076][162]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.146609
+[2022.06.25-04.18.42:721][356]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 1.0
+[2022.06.25-04.18.42:734][356]LogBlueprintUserMessages: [BP_WorkerAI_TEST1_C_1] 0.632414
+[2022.06.25-04.18.46:360][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.18.46:360][555]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2022.06.25-04.18.46:360][555]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-04.18.46:361][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.46:375][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-04.18.46:384][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-04.18.46:433][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-04.18.46:433][555]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2022.06.25-04.18.46:435][555]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2022.06.25-04.18.46:441][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.06.25-04.18.46:473][556]LogPlayLevel: Display: Destroying online subsystem :Context_128
+[2022.06.25-04.18.53:319][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.06.25-04.18.54:762][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.06.25-04.18.54:764][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/health_sat" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/health_sat.uasset" SILENT=true
+[2022.06.25-04.18.54:798][277]LogSavePackage: Moving output files for package: /Game/UIWidgets/health_sat
+[2022.06.25-04.18.54:798][277]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/health_satEF5471FC451889D2CAF856BE6A5BB38A.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/health_sat.uasset'
+[2022.06.25-04.18.54:799][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/bg_metal" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/bg_metal.uasset" SILENT=true
+[2022.06.25-04.18.54:827][277]LogSavePackage: Moving output files for package: /Game/UIWidgets/bg_metal
+[2022.06.25-04.18.54:827][277]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/bg_metal6EAF473A4D61FC92B8CB9EBB9235BD53.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/bg_metal.uasset'
+[2022.06.25-04.18.54:828][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/health_border" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/health_border.uasset" SILENT=true
+[2022.06.25-04.18.54:854][277]LogSavePackage: Moving output files for package: /Game/UIWidgets/health_border
+[2022.06.25-04.18.54:854][277]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/health_border5683C25C4D6F6DE6D6203DAA57C0F171.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/health_border.uasset'
+[2022.06.25-04.18.54:875][277]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.25-04.18.54:876][277]LogContentValidation: Display: Validating Texture2D /Game/UIWidgets/health_border.health_border
+[2022.06.25-04.18.54:876][277]LogContentValidation: Display: Validating Texture2D /Game/UIWidgets/bg_metal.bg_metal
+[2022.06.25-04.18.54:876][277]LogContentValidation: Display: Validating Texture2D /Game/UIWidgets/health_sat.health_sat
+[2022.06.25-04.20.03:667][812]LogEditorTransaction: Undo Create Pin Link
+[2022.06.25-04.20.04:071][815]LogEditorTransaction: Undo Break Pin Links
+[2022.06.25-04.20.04:341][817]LogEditorTransaction: Undo Create Pin Link
+[2022.06.25-04.20.04:607][825]LogEditorTransaction: Undo Create Pin Link
+[2022.06.25-04.20.04:886][835]LogEditorTransaction: Undo Create Pin Link
+[2022.06.25-04.20.05:115][839]LogEditorTransaction: Undo Move Node
+[2022.06.25-04.20.05:334][842]LogEditorTransaction: Undo Promote To Variable
+[2022.06.25-04.20.05:705][858]LogEditorTransaction: Undo Move Node
+[2022.06.25-04.20.07:196][ 35]LogEditorTransaction: Redo Move Node
+[2022.06.25-04.20.09:569][290]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2022.06.25-04.20.09:717][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.06.25-04.20.10:183][292]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2022.06.25-04.20.10:183][292]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/BP_ThirdPersonCharacterD4435F124A4D54CAC40BD6B2E227D28F.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2022.06.25-04.20.10:214][292]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.06.25-04.20.10:214][292]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.06.25-04.20.10:529][312]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2022.06.25-04.20.10:530][312]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/BP_ThirdPersonCharacter1E2236744187205FD50D9ABCAE3944F3.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2022.06.25-04.20.10:553][312]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.06.25-04.20.10:553][312]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.06.25-04.21.28:978][401]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2022.06.25-04.21.28:978][401]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/BP_ThirdPersonCharacter787B67D04DD25E65514C04A5DF6494DD.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2022.06.25-04.21.29:002][401]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2022.06.25-04.21.29:002][401]LogContentValidation: Display: Validating Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2022.06.25-04.23.17:775][872]LogDerivedDataCache: C:/Users/bored/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.796 and deleted 0 file(s) with total size 0 MiB.
+[2022.06.25-04.24.44:973][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.06.25-04.24.44:980][131]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/LevelMaps/Main_Menu_Level' took 0.061
+[2022.06.25-04.24.44:980][131]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UIWidgets/Health_Widget] ([2] browsable assets)...
+[2022.06.25-04.24.44:984][131]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget]
+[2022.06.25-04.24.44:984][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/UIWidgets/Health_Widget]
+[2022.06.25-04.24.44:990][131]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UIWidgets/Health_Widget_Auto1
+[2022.06.25-04.24.44:990][131]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget_Auto1E1A6CEAA4893163CEEA328A6F25107DF.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Autosaves/Game/UIWidgets/Health_Widget_Auto1.uasset'
+[2022.06.25-04.24.44:991][131]LogFileHelpers: Auto-saving content packages took 0.011
+[2022.06.25-04.26.38:392][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.06.25-04.26.39:805][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.06.25-04.26.39:807][946]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UIWidgets/Health_Widget" FILE="D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset" SILENT=true
+[2022.06.25-04.26.39:812][946]LogSavePackage: Moving output files for package: /Game/UIWidgets/Health_Widget
+[2022.06.25-04.26.39:813][946]LogSavePackage: Moving 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Saved/Health_Widget0FDDA6CD4D6F1ABB459C5C9969FDA814.tmp' to 'D:/OneDrive/Documents/GitHub/slamjam#slamjam/SlamJam/Content/UIWidgets/Health_Widget.uasset'
+[2022.06.25-04.26.39:835][946]AssetCheck: New page: Asset Save: Health_Widget
+[2022.06.25-04.26.39:835][946]LogContentValidation: Display: Validating WidgetBlueprint /Game/UIWidgets/Health_Widget.Health_Widget

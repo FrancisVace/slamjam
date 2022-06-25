@@ -1,0 +1,7 @@
+{
+	"SourceFiles": [
+		"D:\\OneDrive\\Documents\\GitHub\\slamjam#slamjam\\SlamJam\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"D:\\OneDrive\\Documents\\GitHub\\slamjam#slamjam\\SlamJam\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs"
+	],
+	"EngineVersion": "5.0.2"
+}
